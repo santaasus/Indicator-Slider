@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:orientation="vertical">
+
+    <com.example.vladimir.customslider.IndicatorContainer xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/custom_view"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        app:active_color="@color/colorAccent"
+        app:active_item="7dp"
+        app:inactive_color="@color/colorPrimaryDark"
+        app:inactive_item="5dp"
+        app:indicator="5"
+        app:number_active="2">
+
+    </com.example.vladimir.customslider.IndicatorContainer>
+
+    <Button
+        style="@style/Buttoncheck"
+        android:id="@+id/button"
+        android:layout_gravity="start"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="42dp" />
+
+</LinearLayout>
