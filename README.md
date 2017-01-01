@@ -2,8 +2,7 @@
 
 
 Example:
-#For correct behaviour for relative layout (It's container for indicators) above viewpager 
-#you must to wrap these views in FrameLayout for full controll relataive on viewpager
+#For correct behaviour for relative layout (It's container for indicators) above viewpager you must to wrap these views in FrameLayout for full controll relataive on viewpager
 
 
 <FrameLayout 
