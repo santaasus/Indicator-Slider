@@ -4,8 +4,9 @@
 Example:
 #For correct behaviour for relative layout (It's container for indicators) above viewpager 
 #you must to wrap these views in FrameLayout for full controll relataive on viewpager
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+<FrameLayout 
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
