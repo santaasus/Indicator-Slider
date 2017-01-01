@@ -12,8 +12,7 @@ Example:
     <android.support.v4.view.ViewPager
         android:id="@+id/indicator_pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="visible" />
+        android:layout_height="match_parent" />
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -35,3 +34,6 @@ Example:
     </FrameLayout>
 
 </FrameLayout>
+
+https://s28.postimg.org/6s83hc7y5/device_2017_01_01_205017.png
+
