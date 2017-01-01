@@ -35,4 +35,4 @@ Example:
 
 </FrameLayout>
 
-[![device-2017-01-01-205017.png](https://s28.postimg.org/6s83hc7y5/device_2017_01_01_205017.png)](https://postimg.org/image/50f4mfol5/)
+[![rsz_device-2017-01-01-205017.png](https://s27.postimg.org/51wqsi3hf/rsz_device_2017_01_01_205017.png)](https://postimg.org/image/88rac4nxb/)
