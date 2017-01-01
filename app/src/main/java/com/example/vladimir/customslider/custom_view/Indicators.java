@@ -1,20 +1,9 @@
-package com.example.vladimir.customslider;
+package com.example.vladimir.customslider.custom_view;
 
-import android.animation.AnimatorSet;
-import android.animation.ValueAnimator;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.graphics.drawable.ShapeDrawable;
-import android.graphics.drawable.shapes.OvalShape;
-import android.support.v4.content.ContextCompat;
-import android.util.Log;
-import android.view.Gravity;
 import android.view.View;
-import android.view.animation.DecelerateInterpolator;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 
 import com.example.vladimir.customslider.item_states.State;
 
@@ -41,9 +30,9 @@ public class Indicators extends View {
 
         int width;
 
-        if (widthMode == MeasureSpec.EXACTLY) {
+        if (widthMode == MeasureSpec.EXACTLY && heightMode == MeasureSpec.EXACTLY) {
             width = widthSize;
-        } else if (widthMode == MeasureSpec.AT_MOST) {
+        } else if (widthMode == MeasureSpec.AT_MOST && heightMode == MeasureSpec.AT_MOST) {
             width = Math.min(widthSize + widthSize, widthSize);
         } else {
             width = widthSize + widthSize;
@@ -64,12 +53,14 @@ public class Indicators extends View {
         canvas.drawCircle(x, y, radius, paint);
     }
 
-    private int getStateColor(){
+
+
+    private int getStateColor() {
         return state == State.ACTIVE ?
                 activeColor : inActiveColor;
     }
 
-    public void setActiveColor(int activeColor){
+    public void setActiveColor(int activeColor) {
         this.activeColor = activeColor;
         invalidate();
     }
@@ -78,7 +69,7 @@ public class Indicators extends View {
         this.inActiveColor = inActiveColor;
     }
 
-    public void setActiveItemPx(int activeItemPx){
+    public void setActiveItemPx(int activeItemPx) {
         this.activeItemPx = activeItemPx;
         invalidate();
     }
@@ -92,4 +83,6 @@ public class Indicators extends View {
         this.state = state;
         invalidate();
     }
+
+
 }

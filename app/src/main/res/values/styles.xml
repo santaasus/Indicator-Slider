@@ -11,7 +11,7 @@
 
     <declare-styleable name="Indicators">
 
-        <attr name="indicator" format="integer"/>
+        <attr name="indicators" format="integer"/>
         <attr name="active_color" format="integer" />
         <attr name="inactive_color" format="integer"/>
         <attr name="inactive_item" format="dimension"/>

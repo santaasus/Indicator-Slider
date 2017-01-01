@@ -1,4 +1,4 @@
-package com.example.vladimir.customslider;
+package com.example.vladimir.customslider.custom_view;
 
 
 import android.util.AttributeSet;
